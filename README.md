@@ -6,7 +6,7 @@ In this project the script is used for leaf detection and cropping, However this
 
 ## How to use
 
-Clone this repository and copy ur trained model ckpt, ckpt index, pipeline config and labelmap.txt into the libraries/model folder. 
+Clone this repository and copy ur trained model ckpt, ckpt index, pipeline config and labelmap.pbtxt into the libraries/model folder. 
 
 It should look like ckpt-0.data-00000-of-00001, ckpt-0.index and pipeline.config respectively, otherwise rename them.
 
