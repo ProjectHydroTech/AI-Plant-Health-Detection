@@ -12,15 +12,15 @@ import libraries.inference as infer
 #----------------Firebase auth-----------------------------#   
 
 config = {
-  'apiKey': "AIzaSyD_jFWX6SrZq-YzIrPIgyJaTIXHTj0vC6k",
-  'authDomain': "leaf-detection-74f49.firebaseapp.com",
-  'databaseURL': "https://leaf-detection-74f49-default-rtdb.asia-southeast1.firebasedatabase.app",
-  'projectId': "leaf-detection-74f49",
-  'storageBucket': "leaf-detection-74f49.appspot.com",
-  'messagingSenderId': "328009889613",
-  'appId': "1:328009889613:web:a00402855825110b08e904",
-  'measurementId': "G-F2V3W8VQKS",
-  'serviceAccount': "key.json"
+  'apiKey': "to be configured",
+  'authDomain': "to be configured",
+  'databaseURL': "to be configured",
+  'projectId': "to be configured",
+  'storageBucket': "to be configured",
+  'messagingSenderId': "to be configured",
+  'appId': "to be configured",
+  'measurementId': "to be configured",
+  'serviceAccount': "to be configured"
 }
 
 
