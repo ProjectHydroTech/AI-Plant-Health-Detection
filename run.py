@@ -19,15 +19,24 @@ parser.add_argument("-nb", "--boundboxnumber", help = "Number of Bounding Boxes"
 args = parser.parse_args()
 
 #Show directories
-if args.dataset:
+if args.dataset is None:
+    datasetpath = "dataset"
+    print("Using Default dataset path : % s" % datasetpath)
+else:
     datasetpath = args.dataset
     print("Dataset path is: % s" % datasetpath)
     
-if args.cropped:
+if args.cropped is None:
+    croppedpath = "cropped"
+    print("Using Default cropped path : % s" % croppedpath)
+else:
     croppedpath = args.cropped
     print("Cropped path is: % s" % croppedpath)
     
-if args.boundbox:
+if args.boundbox is None:
+    boundboxpath = "boundbox"
+    print("Using Default dataset path : % s" % boundboxpath)
+else:
     boundboxpath = args.boundbox
     print("Image + Bound Box Path is: % s" % boundboxpath)
 
