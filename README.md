@@ -1,4 +1,4 @@
-# AI-Plant-Health-Detection
+# Leaf Detection AI
 
 This python script performs inference and crops and draws bounding boxes on images you provide. 
 
